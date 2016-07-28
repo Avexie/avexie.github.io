@@ -1,0 +1,32 @@
+
+			body {
+				background-repeat: no-repeat;
+				background-size: 100%, 70%;
+				font-family: 'Bree Serif', serif;
+			}
+
+			.mySlides{
+				position: ;
+			}
+
+			img {
+				display: block;
+				margin: auto;
+				width: 800px;
+				height: 533px;
+			}
+			
+			#title {
+				font-size:80px;
+				text-align: center;
+				color: white;
+				font-family: 'Just Me Again Down Here', cursive;
+
+			}
+			
+			p {
+				font-size:40px;
+				text-align: center;
+				color: white;
+				font-family: 'Just Me Again Down Here', cursive;
+			}

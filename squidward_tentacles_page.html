@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="Javascript_Starter_Code.css">
+		    <title>Squidward Tentacles Memes</title>
+			<link href='https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here' rel='stylesheet' type='text/css'>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+	</head>
+				<style>
+				.mySlides {display:none}
+				
+				ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #001133;
+				}
+
+				li {
+				float: left;
+				}
+
+				li a, .dropbtn {
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				}
+
+				li a:hover, .dropdown:hover .dropbtn {
+				background-color:  #80aaff;
+				}
+
+				li.dropdown {
+				display: inline-block;
+				}
+
+				.dropdown-content {
+				display: none;
+				position: absolute;
+				background-color: #b3ccff;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				}
+
+				.dropdown-content a {
+				color: black;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+				}
+
+				.dropdown-content a:hover {background-color: #f1f1f1}
+
+				.show {display:block;}
+				</style>
+				
+				<body background="SquidwardsHouse.png">
+				
+				<ul>
+				<li><a class="active" href="file:///C:/Users/GWC/Desktop/Girls%20Who%20Code%20Projects%202016%20-%20ADelaCruz/Week%205%20-%20HTML%20&%20JavaScript/Day%201%20-%207.25.16/Home_Page.html">Home</a></li>
+				<li class="dropdown">
+					<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Spongebob Cast & Crew</a>
+					<div class="dropdown-content" id="myDropdown">
+					<a href="file:///C:/Users/GWC/Desktop/Girls%20Who%20Code%20Projects%202016%20-%20ADelaCruz/Week%205%20-%20HTML%20&%20JavaScript/Day%201%20-%207.25.16/Javascript_Starter_Code.html#">Spongebob Squarepants</a>
+					<a href="file:///C:/Users/GWC/Desktop/Girls%20Who%20Code%20Projects%202016%20-%20ADelaCruz/Week%205%20-%20HTML%20&%20JavaScript/Day%201%20-%207.25.16/patrick_page.html#">Patrick Star</a>
+					<a href="file:///C:/Users/GWC/Desktop/Girls%20Who%20Code%20Projects%202016%20-%20ADelaCruz/Week%205%20-%20HTML%20&%20JavaScript/Day%201%20-%207.25.16/squidward_tentacles_page.html">Squidward Tentacles</a>
+					<a href="file:///C:/Users/GWC/Desktop/Girls%20Who%20Code%20Projects%202016%20-%20ADelaCruz/Week%205%20-%20HTML%20&%20JavaScript/Day%201%20-%207.25.16/mr_krabs_page.html">Mr. Krabs</a>
+					<a href="file:///C:/Users/GWC/Desktop/Girls%20Who%20Code%20Projects%202016%20-%20ADelaCruz/Week%205%20-%20HTML%20&%20JavaScript/Day%201%20-%207.25.16/sheldon_plankton_page.html">Sheldon Plankton</a>
+					<a href="file:///C:/Users/GWC/Desktop/Girls%20Who%20Code%20Projects%202016%20-%20ADelaCruz/Week%205%20-%20HTML%20&%20JavaScript/Day%201%20-%207.25.16/sandy_cheeks_page.html">Sandy Cheeks</a>
+					<a href="file:///C:/Users/GWC/Desktop/Girls%20Who%20Code%20Projects%202016%20-%20ADelaCruz/Week%205%20-%20HTML%20&%20JavaScript/Day%201%20-%207.25.16/gary_page.html">Gary the Snail</a>
+				</div>
+				</li>
+			</ul>
+
+				<div class="w3-container">
+				<h2 id="title">Welcome to the Home of ALL Squidward Tentacles Memes</h2>
+				<p>A collection of the most DANK Squidward Tentacles Memes.</p>
+				</div>
+				
+				
+				<div class="w3-content" style="max-width:800px">
+					<img class="mySlides" src="Squidward1.gif" align= "middle">
+					<img class="mySlides" src="Squidward2.gif" style="height:100%,width:100%">
+					<img class="mySlides" src="Squidward3.gif" style="height:500px,width:359px">
+					<img class="mySlides" src="Squidward4.gif" style="height:500px,width:359px">
+					<img class="mySlides" src="Squidward5.gif" style="height:500px,width:359px">
+					<img class="mySlides" src="Squidward6.gif" style="height:500px,width:359px">
+					<img class="mySlides" src="Squidward7.gif" style="height:500px,width:359px">
+					<img class="mySlides" src="Squidward8.gif" style="height:500px,width:359px">
+					<img class="mySlides" src="Squidward9.gif" style="height:500px,width:359px">
+					<img class="mySlides" src="Squidward10.gif" style="height:500px,width:359px">
+				</div>
+
+				<div class="w3-center">
+					<div class="w3-section">
+						<button class="w3-btn" onclick="plusDivs(-1)">Prev</button>
+						<button class="w3-btn" onclick="plusDivs(1)">Next</button>
+					</div>
+				<button class="w3-btn demo" onclick="currentDiv(1)">1</button>
+				<button class="w3-btn demo" onclick="currentDiv(2)">2</button>
+				<button class="w3-btn demo" onclick="currentDiv(3)">3</button>
+				<button class="w3-btn demo" onclick="currentDiv(4)">4</button>
+				<button class="w3-btn demo" onclick="currentDiv(5)">5</button>
+				<button class="w3-btn demo" onclick="currentDiv(6)">6</button>
+				<button class="w3-btn demo" onclick="currentDiv(7)">7</button>
+				<button class="w3-btn demo" onclick="currentDiv(8)">8</button>
+				<button class="w3-btn demo" onclick="currentDiv(9)">9</button>
+				<button class="w3-btn demo" onclick="currentDiv(10)">10</button>
+				</div>
+
+				<script>
+				
+				function myFunction() {
+				document.getElementById("myDropdown").classList.toggle("show");
+				}
+				
+				window.onclick = function(e) {
+					if (!e.target.matches('.dropbtn')) {
+
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+					for (var d = 0; d < dropdowns.length; d++) {
+				var openDropdown = dropdowns[d];
+				if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				}
+				}
+				}
+				}
+				
+				
+				var slideIndex = 1;
+					showDivs(slideIndex);
+
+				function plusDivs(n) {
+					showDivs(slideIndex += n);
+				}
+
+				function currentDiv(n) {
+					showDivs(slideIndex = n);
+				}
+
+				function showDivs(n) {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				var dots = document.getElementsByClassName("demo");
+				if (n > x.length) {slideIndex = 1}
+				if (n < 1) {slideIndex = x.length}
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" w3-blue", "");
+				}
+				x[slideIndex-1].style.display = "block";
+				dots[slideIndex-1].className += " w3-blue";
+				}
+	</script>
+  </body>
+</html>
